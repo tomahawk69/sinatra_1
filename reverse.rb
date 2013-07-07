@@ -21,7 +21,7 @@ not_found do
 end
 
 error do
-	@error = request.env['sinatra_error']
+	#@error = request.env['sinatra_error']
    	erb :'param_error'
 end
 
